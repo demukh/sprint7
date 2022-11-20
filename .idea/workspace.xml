@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b45702-5bc9-48aa-a43d-abe0351e3043" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c9b45702-5bc9-48aa-a43d-abe0351e3043" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CourierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CourierCreds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GetSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OrderStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CourierCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginCourierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668634388559</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1668635328819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668635328819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

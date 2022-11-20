@@ -23,7 +23,7 @@ public class OrderCreationTest {
     }
 
     @Parameterized.Parameters()
-    @Step("Test data colors creating for checking order creating")
+    @Step("Create colours list")
     public static Object[][] getColorData() {
         return new Object[][]{
                 {List.of("BLACK", "GREY"), notNullValue()},
@@ -35,7 +35,7 @@ public class OrderCreationTest {
 
     @Test
     @DisplayName("Success creating order")
-    @Description(value = "Check creating order with different list of color.")
+    @Description(value = "Check creating order with different list of colors.")
     public void CreatingOrderTest() {
         OrderStep orderStep = new OrderStep();
         Order order = new Order(color);

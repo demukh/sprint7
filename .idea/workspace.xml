@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b45702-5bc9-48aa-a43d-abe0351e3043" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CourierClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CourierCreds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GetSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrderStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CourierCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginCourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderCreationTest.java" afterDir="false" />
+    <list default="true" id="c9b45702-5bc9-48aa-a43d-abe0351e3043" name="Changes" comment=" commit changes">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CourierCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CourierCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderCreationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,11 +44,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668635328819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" commit changes">
+      <created>1668636003074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668636003074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value=" commit changes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commit changes" />
   </component>
 </project>

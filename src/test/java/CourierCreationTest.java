@@ -22,37 +22,26 @@ public class CourierCreationTest {
 
 
     @Test
-    @DisplayName(value = "Creating new courier")
-    @Description(value = "Creating new courier with correct credentials and check the positive creating courier")
+    @DisplayName(value = "Create new courier")
+    @Description(value = "Creating courier with correct login and password")
     public void successCreatingCourierTest() {
         ValidatableResponse createResponse = courierClient.createCourier(courier).statusCode(201);
         createResponse.assertThat().body("ok", equalTo(true));
     }
 
     @Test
-    @DisplayName("Creating identical couriers")
-    @Description("Checking Response (status code and body) when trying to create identical couriers")
+    @DisplayName("Create courier already existing")
+    @Description("Checking Response when trying to create identical couriers")
     public void creatingIdenticalCourierTest() {
         courierClient.createCourier(courier);
         ValidatableResponse createResponse = courierClient.createCourier(courier).statusCode(409);
         createResponse.assertThat().body("message", equalTo("Этот логин уже используется. Попробуйте другой."));
     }
 
-    @Test
-    @DisplayName("Creating a courier with an existing login")
-    @Description("Creating a courier with an existing login and checking the response")
-    public void creatingExistingLoginCourierTest() {
-        courierClient.createCourier(courier);
-        String firstCourierLogin = courier.getLogin();
-        Courier secondCourier = Courier.getRandomCourier();
-        secondCourier.setLogin(firstCourierLogin);
-        ValidatableResponse createResponse = courierClient.createCourier(secondCourier).statusCode(409);
-        createResponse.assertThat().body("message", equalTo("Этот логин уже используется. Попробуйте другой."));
-    }
 
     @Test
-    @DisplayName("Creating a courier without login")
-    @Description("Creating a courier without login and checking the response")
+    @DisplayName("Create courier without login")
+    @Description("Creating courier without login")
     public void creatingCourierWithoutLoginTest() {
         courier.setLogin("");
         ValidatableResponse createResponse = courierClient.createCourier(courier).statusCode(400);
@@ -60,8 +49,8 @@ public class CourierCreationTest {
     }
 
     @Test
-    @DisplayName("Creating a courier without password")
-    @Description("Creating a courier without password and checking the response")
+    @DisplayName("Create courier without password")
+    @Description("Creating a courier without password")
     public void creatingCourierWithoutPasswordTest() {
         courier.setPassword("");
         ValidatableResponse createResponse = courierClient.createCourier(courier).statusCode(400);
@@ -69,7 +58,7 @@ public class CourierCreationTest {
     }
 
     @After
-    public void tearDown() {
+    public void cleanUp() {
         if (courierId != 0) {
             courierClient.deleteCourier(courierId);
         }
